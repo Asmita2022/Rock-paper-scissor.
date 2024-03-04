@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(18, 18, 64);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 600px;
+    width: 100%;
+    display: inline;
+}
+.img{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.images{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+.images:hover{
+    transform: scale(1.03,1.03);
+    cursor: pointer;
+}
+.scoreboard{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.score{
+    height: 100px;
+    width: 100px;
+}
+.number{
+    margin-left: 40px;
+}
+.number1{
+    margin-left: 20px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.pick{
+    height: 60px;
+    width: 300px;
+    background-color: rgb(18, 18, 64);
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 362px) and (max-width: 752px){
+    .images{
+        height: 100px;
+        width: 100px;
+        margin-left: 20px;
+    }
+    .pick{
+        width: 250px;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 302px) and (max-width: 361px) {
+    .images{
+        height: 90px;
+        width: 90px;
+        margin-left: 10px;
+    }
+    .scoreboard{
+        font-size: 25px;
+    }
+    .pick{
+        width: 240px;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    .number{
+        margin-left: 20px;
+    }
+}
